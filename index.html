@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Tabela</h1>
+    </header>
+    <section>
+        <div class="box">
+            <h2>Pacientes</h2>
+        </div>
+        <div class="container">
+            <div class="box filtro">
+                <label for="filter">Filtrar:</label>
+                <input type="text" name="filter" id="filtro">
+            </div>
+            <div>
+                <button id="search-patients" class="btn">Buscar Pacientes</button>
+            </div>
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Weight(kg)</th>
+                    <th>Height(m)</th>
+                    <th>Body Fat(%)</th>
+                    <th>BMI</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <form>
+            <div class="box">
+                <h2>Adicionar paciente</h2>
+            </div>
+            <span class="mensagem-erro not-show" id="error-message"></span>
+            <fieldset>
+                <div>
+                    <input name="nome" class="nome" type="text" placeholder="Nome" required>
+                </div>
+                <div>
+                    <input name="peso" class="peso" type="text" placeholder="Peso" required>
+                </div>
+                <div>
+                    <input name="altura" class="altura" type="text" placeholder="Altura" required>
+                </div>
+                <div>
+                    <input name="gordura" class="gordura" type="text" placeholder="Gordura" required>
+                </div>
+                <button id="adicionar">Adicionar</button>
+            </fieldset>
+        </form>
+    </section>
+    <script type="module" src="main.js"></script>
+    <script type="module" src="form.js"></script>
+    <script type="module" src="remove.js"></script>
+    <script type="module" src="filter.js"></script>
+    <script type="module" src="findPacient.js"></script>
+</body>
+</html>

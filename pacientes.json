@@ -1,0 +1,50 @@
+[ 
+    {  
+        "nome": "Matt",
+        "peso": 70,
+        "altura": 1.81,
+        "gordura": 17
+
+    },
+    {
+        "nome": "Kel",
+        "peso": 47,
+        "altura": 1.53,
+        "gordura": 17
+    },
+    {  
+        "nome": "Maria",
+        "peso": 1155,
+        "altura": 1.67,
+        "gordura": 17
+
+    },
+    {  
+        "nome": "Jason",
+        "peso": 159,
+        "altura": 2.67,
+        "gordura": 19
+
+    },
+    {  
+        "nome": "Ryan",
+        "peso": 95,
+        "altura": 1.95,
+        "gordura": 25
+
+    },
+    {  
+        "nome": "Dylan",
+        "peso": 72,
+        "altura": 3.80,
+        "gordura": 17
+
+    },
+    {  
+        "nome": "Test",
+        "peso": 100,
+        "altura": 2.00,
+        "gordura": 17
+
+    }
+]
