@@ -4,7 +4,7 @@ filterInput.addEventListener("input", () => {
 	const pacientNames = document.querySelectorAll(".info-nome");
 
 	pacientNames.forEach((names, i) => {
-		const trs = document.querySelectorAll(".paciente");
+		const trs = document.querySelectorAll(".patient");
 
 		var regex = new RegExp(filterInput.value, "i");
 
